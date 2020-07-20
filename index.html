@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+</head>
+<body >
+    <div class="navlink">
+        <div class="container">
+           <div class="nav_zag">
+                <h1>
+                    potencialex
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container">
+            <div class="header_main">
+                <div class="header_main_col_1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro placeat deserunt earum odit.</p>
+                    <a href="##" id="scrolling_btn">fill in the form</a>
+                </div>
+                <div class="header_main_col_2">
+                    <video autoplay="1" muted="muted">
+                        <source src="style/images/10seck.mp4" type='video/mp4'>
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="block_carousel">
+        <div class="container">
+            <div class="block_carousel_main">
+                <div class="block_carousel_zag">
+                    <h3>Pills</h3>
+                    <span></span>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item"><img src="style/images/close-up-1853400_1280.jpg" alt=""></div>
+                    <div class="item"><img src="style/images/close-up-1853400_1280.jpg" alt=""></div>
+                    <div class="item"><img src="style/images/close-up-1853400_1280.jpg" alt=""></div>
+                    <div class="item"><img src="style/images/close-up-1853400_1280.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="property">
+        <div class="container">
+            <div class="property_main">
+                <div class="property_col_1">
+                    <h2>Рeading</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates odit cum, eligendi vero quas culpa, voluptate fugit amet voluptas nostrum nemo autem adipisci. Illum cupiditate quo expedita eius nemo qui!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis reprehenderit repellendus ad voluptate magni, cumque ab dolorum ullam quos aliquam dolores nemo sapiente officiis! Inventore veniam, quaerat ipsam veritatis repudiandae!</p>
+                </div>
+                <div class="property_col_2">
+                    <img src="style/images/medications-257349_1920.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="forms" >
+        <div class="container">
+            <div class="forms_main">
+                <div class="forms_main_col_1">
+                    <h3>potencialex</h3>
+                    <img src="style/images/tablet.png" alt="">
+                    <div class="price_main">
+                        <span class="price_s">$85</span>
+                        <span class="price_b">$34</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="forms_main_col_2" id="scrolling">
+                    <form action="">
+                        <p>Name</p>
+                        <input type="text">
+                        <p>Phone</p>
+                        <input type="text"><br/>
+                        <a href="##">send</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>    
+    
+    <div class="timer_main">
+        <h4>time left</h4>
+        <div class="eTimer"></div>
+    </div>
+    
+<script type="text/javascript" src="JS/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="JS/owl.carousel.min.js"></script>
+<script type="text/javascript" src="JS/carousel.js"></script>
+<script type="text/javascript">
+    $('#scrolling_btn').click(function(){
+        var n = $('#scrolling').offset().top;
+        $("html, body").animate({ scrollTop: n }); 
+
+    });
+</script>
+
+
+<script src="https://e-timer.ru/js/etimer.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery(".eTimer").eTimer({
+			etType: 1, etDate: "21.07.2020.0.0", etTitleText: "", etTitleSize: 20, etShowSign: 0, etSep: ":", etFontFamily: "Trebuchet MS", etTextColor: "#0e0e0e", etPaddingTB: 0, etPaddingLR: 0, etBackground: "white", etBorderSize: 0, etBorderRadius: 5, etBorderColor: "white", etShadow: " 0px 0px 0px 0px #333333", etLastUnit: 4, etNumberFontFamily: "Impact", etNumberSize: 35, etNumberColor: "white", etNumberPaddingTB: 0, etNumberPaddingLR: 5, etNumberBackground: "#090a0a", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5)"
+		});
+	});
+</script>
+
+</body>
+</html>
